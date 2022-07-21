@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="efr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Devine un nombre </title>
+</head>
+<body>
+    <h1>Devine le nombre </h1>
+
+    <p>Nous avons généré un nombre aléatoire entre 0 et 100. Vous avez 10 essais pour le deviner et nous vous dirons si vous etes trop bas ou trop haut.</p>
+    <p>Bonne chance !</p>
+    
+<!--formulaire de saisie-->
+<label for="guessField">Entrer une valeur: </label>
+<input type="text" id="guessField" class="guessField">
+<input type="submit" value="cliquer " class="guessSubmit" id="guessSubmit">
+  
+
+<!--paragraphes de resultats -->
+<p class="guesses"></p>
+<p class="lastResult"></p>
+<p class="lowOrHi"></p>
+
+</body>
+</html>
